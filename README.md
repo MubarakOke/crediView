@@ -1,8 +1,8 @@
-# CrediViewer
+# CrediView
 
 ## Description
 
-The Verifiable Credential Viewer is a browser extension designed to simplify the process of viewing and validating JSON-based digital credentials. It provides a user-friendly interface for professionals and individuals working with verifiable credentials, digital identities, and blockchain certificates.
+CrediView is a browser extension designed to simplify the process of viewing and validating JSON-based digital credentials. It provides a user-friendly interface for professionals and individuals working with verifiable credentials, digital identities, and blockchain certificates.
 
 ### Key Features
 
@@ -47,7 +47,7 @@ To build the extension for production:
 1. Run the build command:
    ```npm run build```
    
-   This should generate a 'build' folder in the project directory
+   This should generate a `build folder in the project directory
 
 ## Installing as a Browser Extension
 
