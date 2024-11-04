@@ -59,7 +59,7 @@ After building the project:
 
 3. Click on "Load unpacked" (Chrome/Edge) or "Load Temporary Add-on" (Firefox).
 
-4. Navigate to your project directory and select the `staticfiles` folder.
+4. Navigate to your project directory and select the `build` folder.
 
 The Verifiable Credential Viewer should now be installed as a browser extension.
 
