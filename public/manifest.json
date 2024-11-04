@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "crediView",
+  "version": "1.0",
+  "description": "View and verify credentials through various input methods",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "notifications",
+    "clipboardRead"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["*"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "crediview.png",
+      "48": "crediview.png",
+      "128": "crediview.png"
+    }
+  },
+  "icons": {
+    "16": "crediview.png",
+    "48": "crediview.png",
+    "128": "crediview.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; frame-src *;"
+  }
+}
