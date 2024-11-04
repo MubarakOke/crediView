@@ -64,7 +64,7 @@ After building the project:
 
 4. Navigate to your project directory and select the `build` folder.
 
-The Verifiable Credential Viewer should now be installed as a browser extension.
+CrediView should now be installed as a browser extension.
 
 ## Development
 
