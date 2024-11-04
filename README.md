@@ -26,7 +26,7 @@ The Verifiable Credential Viewer is a browser extension designed to simplify the
 
 To set up the project for development:
 
-1. Clone the repository:
+1. Clone the repository
 
 2. Enter the project directory:
    ```cd <project directory>```
@@ -34,7 +34,8 @@ To set up the project for development:
 3. Install dependencies:
    ```npm install```
 
-4. To run the project in development mode:
+## Usage
+To run the project in development mode:
    ```npm run dev```
    
    This will start the development server, typically at `http://localhost:3000`.
@@ -45,6 +46,7 @@ To build the extension for production:
 
 1. Run the build command:
    ```npm run build```
+   This should generate a build folder in the project directory
 
 ## Installing as a Browser Extension
 
