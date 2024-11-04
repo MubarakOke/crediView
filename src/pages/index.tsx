@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import CredentialLoader from "@/components/CredentialLoader"
+import CredentialViewer from "@/components/CredentialViewer"
 import { VerifiableCredential } from '@/types/credential';
 
 export default function App() {

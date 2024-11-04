@@ -9,9 +9,11 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
-
+jsonExample/
 # testing
 /coverage
+
+debug.log
 
 # next.js
 /.next/

@@ -1,40 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# CrediViewer
 
-## Getting Started
+## Description
 
-First, run the development server:
+The Verifiable Credential Viewer is a browser extension designed to simplify the process of viewing and validating JSON-based digital credentials. It provides a user-friendly interface for professionals and individuals working with verifiable credentials, digital identities, and blockchain certificates.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Easy credential input through drag-and-drop file upload, direct pasting, or manual entry
+- Automatic JSON detection and validation
+- Support for various verifiable credential standards and formats
+- Real-time parsing and display of credential contents
+- Clean, distraction-free interface with a modern grayscale gradient design
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Table of Contents
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Building the Extension](#building-the-extension)
+- [Installing as a Browser Extension](#installing-as-a-browser-extension)
+- [Development](#development)
+- [Contributing](#contributing)
+- [License](#license)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To set up the project for development:
 
-## Learn More
+1. Clone the repository:
 
-To learn more about Next.js, take a look at the following resources:
+2. Enter the project directory:
+   ```cd <project directory>```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+3. Install dependencies:
+   ```npm install```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. To run the project in development mode:
+   ```npm run dev```
+   
+   This will start the development server, typically at `http://localhost:3000`.
 
-## Deploy on Vercel
+## Building the Extension
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To build the extension for production:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+1. Run the build command:
+   ```npm run build```
+
+## Installing as a Browser Extension
+
+After building the project:
+
+1. Open your browser's extension page:
+- Chrome: Navigate to `chrome://extensions`
+- Firefox: Navigate to `about:addons`
+- Edge: Navigate to `edge://extensions`
+
+2. Enable "Developer mode" (usually a toggle switch in the top right corner).
+
+3. Click on "Load unpacked" (Chrome/Edge) or "Load Temporary Add-on" (Firefox).
+
+4. Navigate to your project directory and select the `staticfiles` folder.
+
+The Verifiable Credential Viewer should now be installed as a browser extension.
+
+## Development
+
+This project is built using:
+
+- Next.js
+- React
+- Tailwind CSS
+
+To start developing:
+
+1. Make changes in the `src` directory.
+2. Use `npm run dev` to see changes in real-time.
+3. Test your changes thoroughly.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+See the License directory for details.

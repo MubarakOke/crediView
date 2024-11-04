@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   output: 'export',
   distDir: 'build',
-  assetPrefix: './staticfiles',
+  assetPrefix: '/staticfiles',
 };
 
 export default nextConfig;
