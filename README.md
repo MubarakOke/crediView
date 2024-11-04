@@ -46,7 +46,8 @@ To build the extension for production:
 
 1. Run the build command:
    ```npm run build```
-   This should generate a build folder in the project directory
+   
+   This should generate a 'build' folder in the project directory
 
 ## Installing as a Browser Extension
 
